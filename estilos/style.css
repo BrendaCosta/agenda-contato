@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    background: #d6eaff;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff; 
+    font-size: 24px;
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+}
+
+nav ul a:hover{
+    background: #ffb32b;
+    color: #fff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav li{    
+    list-style: none;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 3rem 15rem;
+    box-shadow: 0 5px 10px #55a6ff38;
+    border-collapse: initial;
+}
+.buscar{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    width: 50%;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buscar input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+.form_item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+input{
+    height: 2rem;
+    padding: 0.3rem;   
+}
+label{
+    width: 100px;
+}
+
+.info_endereco,
+.info_endereco_bloco2{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.btn-salvar{
+    height: 3rem;
+    width: 8rem;
+    background-color: #0071ea;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    margin-left: auto;
+    margin-top: 2rem;
+
+
+}
+.btn_info{
+    margin-bottom: 1rem;
+}
+
+.mais-info{
+   display: none;
+}
+
+.ativo{
+    display: block;
+    margin-top: 1rem;
+}
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: #C5965F;
+    font-weight: 400;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.botao {
+    display: block;
+    background-color: var(--cor-primaria);
+    border-radius: 7px;
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 20rem;
+    padding: 1.125rem;
+    box-sizing: border-box;
+    color: var(--cor-contraste-claro);
+    font-size: var(--fonte-tamanho-botao);
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+}
+.botao-simples {
+    border: none;
+    background-color: unset;
+}
+.botao-simples--excluir {
+    color: var(--cor-aviso);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        padding: 1rem;
+    }
+    .info_endereco,
+    .info_endereco_bloco2{
+  flex-direction: column;
+}
+}

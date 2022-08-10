@@ -1,0 +1,75 @@
+:root{
+    --cor-primaria: #0071ea;
+    --cor-secundaria: #d6eaff;
+    --cor-contraste-escuro: #4D4D4D;
+    --cor-contraste-claro: #fff;
+    --cor-aviso: #df2525;
+    --cor-sucesso: #047900;
+    --cor-transparencia: #4d4d4d33;
+
+}
+.tabela {
+    width: 100%;
+    text-align: left;
+}
+
+.tabela td:first-of-type, .tabela th:first-of-type {
+    padding-left: 1.75rem;
+}
+
+.tabela td:last-of-type, .tabela th:last-of-type {
+    padding-right: 1.75rem;
+}
+
+.tabela thead {
+    font-size: var(--fonte-tamanho-tabela-cabecalho);
+}
+
+.tabela th {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+.tabela td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tabela__alinhamento--direita {
+    text-align: right;
+}
+
+
+.tabela tr:last-of-type td {
+    padding-bottom: 1.75rem;
+}
+
+.tabela__botoes-controle {
+    display: flex;
+    align-items: center;
+    
+}
+.tabela__botoes-controle li{
+    list-style: none;
+}
+.tabela__botoes-controle li:first-of-type {
+    margin-right: 2.25rem;
+}
+
+.td {
+    padding: 1rem;
+}
+.perfil{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil ion-icon{
+    font-size: 24px;
+}
+
+.tabela__coluna .btn-salvar{
+    padding: 0.4rem;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Agenda de Contato</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a class="logo" href="./index.html">            
+            <img src="./agenda.png" alt="">
+            <h1>Agenda de Contato</h1>
+        </a>
+        </div>
+
+        <ul>
+            <a href="./cadastra-contato.html">
+                <li>Adicionar Contatos</li>
+            </a>
+            <a href="./index.html">
+                <li> Listar Contatos</li>
+            </a>
+        </ul>
+    </nav>
+    
+    <div class="card ">
+
+        <h1>Adicionando contato</h1>
+<form data-form>
+        <div class="form_item">
+            <label for="nome">Nome</label>
+            <input name="nome" id="nome" type="text" placeholder="Nome" required data-nome>
+        </div>
+
+        <div class="form_item">
+            <label for="email">Email</label>
+            <input name="email" id="email" type="text" placeholder="email@email.com" required data-email>
+        </div>
+
+        <div class="form_item">
+            <label  for="telefone">Contato</label>
+            <input name="telefone" id="telefone" type="tel" maxlength="11" placeholder="(XX) XXXXX-XXXX" required data-telefone/>
+        </div>
+
+        <div class="form_item">
+            <label  for="cep" >CEP</label>
+            <input name="cep" id="cep" type="text" maxlength="8" placeholder="00000000" required data-cep>
+            <span id="erro"></span>
+        </div>
+
+
+       
+        <div class="info_endereco">
+            <div class="form_item">
+                <label  for="endereco" >Endereço</label>
+                <input name="endereco" id="endereco" type="text" placeholder="Rua 123" required data-rua>
+            </div>
+            <div class="form_item">
+                <label  for="numero" >N°</label>
+                <input name="numero" id="numero" type="text" placeholder="123" required data-numero>
+            </div>
+            <div class="form_item">
+                <label  for="complemento" >Complemento</label>
+                <input name="complemento" id="complemento" type="text" placeholder="Casa/predio/condominio" data-complemento >
+            </div>
+        </div>
+        
+        <div class="info_endereco_bloco2">
+            <div class="form_item">
+                <label  for="bairro" >Bairro</label>         
+                <input name="bairro" id="bairro" type="text"  placeholder="Bairro 123" required data-bairro>
+            </div>
+    
+            <div class="form_item">
+                <label  for="cidade" >Cidade</label> 
+                <input name="cidade" id="cidade" type="text" placeholder="Cidade ABC " required data-cidade>
+            </div>
+    
+            <div class="form_item">
+                <label  for="UF" >Estado</label>   
+                <input name="UF" id="estado" type="text" placeholder="UF"  required data-estado>
+            </div>
+    
+        </div>
+
+     
+        
+            <button type="submit" class="btn-salvar">Salvar</button>
+        
+       </div>
+
+       
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    
+    <script src="./js/cep.js"></script>
+    <script type="module" src="./controller/cadastrarContato.js"></script>
+    
+    
+    
+    
+</body>
+</html>

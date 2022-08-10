@@ -1,0 +1,98 @@
+{
+  "contatos": [
+    {
+      "nome": "Fofinha",
+      "email": "fofinha@email.com",
+      "telefone": "719523642364",
+      "cep": "41905330",
+      "rua": "Rua Nagé",
+      "bairro": "Nordeste",
+      "numero": "22",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "id": 1
+    }, {
+      "nome": "Dot",
+      "email": "dot@email.com",
+      "telefone": "739523642364",
+      "cep": 40240550,
+      "rua": "Av Laurindo Régis",
+      "bairro": "Engenho Velho de Brotas",
+      "numero": 22,
+      "cidade": "Feira de Santana",
+      "estado": "Bahia",
+      "id": 2
+    },
+    {
+      "nome": "Caloh",
+      "email": "caloh@email.com",
+      "telefone": "739523642364",
+      "cep": 40240550,
+      "rua": "Av Laurindo Régis",
+      "bairro": "Engenho Velho de Brotas",
+      "numero": 22,
+      "cidade": "Feira de Santana",
+      "estado": "Bahia",
+      "id": 3
+    },
+    {
+      "nome": "Brenda",
+      "email": "brenda@email.com",
+      "telefone": "71999954545",
+      "cep": "41905330",
+      "rua": "Rua Nagé",
+      "bairro": "Nordeste",
+      "numero": "22",
+      "cidade": "Salvador",
+      "estado": "BA",
+      "id": 4
+    },
+    {
+      "nome": "Murilo",
+      "email": "murilo@email.com",
+      "telefone": "21984523554",
+      "cep": "20021000",
+      "rua": "Avenida Alfred Agache",
+      "bairro": "Centro",
+      "numero": "360",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "id": 5
+    },{
+      "nome": "Valente",
+      "email": "valente@email.com",
+      "telefone": "48985435478",
+      "cep": "88512375",
+      "rua": "Rua Antonio Marini Netto",
+      "bairro": "Santa Catarina",
+      "numero": "22",
+      "cidade": "Lages",
+      "estado": "SC",
+      "id": 6
+    },
+    {
+      "nome": "João",
+      "email": "joao@email.com",
+      "telefone": "48985435478",
+      "cep": "88512375",
+      "rua": "Rua Antonio Marini Netto",
+      "bairro": "Santa Catarina",
+      "numero": "22",
+      "cidade": "Lages",
+      "estado": "SC",
+      "id": 7
+    },
+    {
+      "nome": "David",
+      "email": "david@mail.com",
+      "telefone": "73954541343",
+      "cep": "48901628",
+      "rua": "Avenida 1",
+      "bairro": "Palmares",
+      "numero": "22",
+      "cidade": "Juazeiro",
+      "estado": "BA",
+      "id": 8
+    }
+  ]
+}
