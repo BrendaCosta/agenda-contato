@@ -1,7 +1,7 @@
 {
   "name": "agenda-contato",
   "version": "1.0.0",
-  "description": "Seguindo a ideia do Mobile First, o projeto foi desenvolvido seguindo as especificações dada pela Natália F. Dev no desafio [#7DaysOfCode da Alura - Responsividade](https://www.figma.com/file/4OjHFmeHAgfX2JpRymOeA0/7days---Responsividade?node-id=6%3A622)",
+  "description": "agenda de contato desenvolvido com html, css e js",
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch ./database/db.json"
