@@ -73,3 +73,15 @@
 .tabela__coluna .btn-salvar{
     padding: 0.4rem;
 }
+
+@media screen and (max-width: 768px) {
+    .tabela td:first-of-type, .tabela th:first-of-type{
+        padding: 0 0.3rem;
+    }
+
+    td{
+        font-size: 0.8rem;
+        padding-right: 1rem;
+    }
+   
+}

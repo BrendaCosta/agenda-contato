@@ -98,7 +98,16 @@ label{
     gap: 1.5rem;
     justify-content: space-between;
 }
+.novo-contato{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #0071ea;
+    font-size: 0.8rem;
+    cursor: pointer;
 
+}
 .btn-salvar{
     height: 3rem;
     width: 8rem;
@@ -177,12 +186,31 @@ label{
     cursor: pointer;
 }
 
+
+
 @media screen and (max-width: 768px) {
+
+    h1, 
+    li{
+        font-size: 1rem;
+    }
+    .logo{
+        align-items: center;
+    }
+    .card h1{
+        font-size: 1.5rem;
+    }
     .card{
         padding: 1rem;
+        margin: 1rem;
+        max-width: 100%;
+        overflow: scroll
     }
     .info_endereco,
     .info_endereco_bloco2{
   flex-direction: column;
+}
+.btn-salvar{
+    display: none;
 }
 }
